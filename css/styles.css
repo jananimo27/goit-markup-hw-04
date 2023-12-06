@@ -366,7 +366,7 @@ li > .link:focus {
 .social-media-container {
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  align-items: baseline !important;
 }
 
 .social-media-paragraph {
@@ -389,8 +389,8 @@ li > .link:focus {
   transition: background-color 0.3s;
 }
 
-.footer .social-media-link-footer:hover,
-.footer .social-media-link-footer:focus {
+.social-media-link-footer:hover,
+.social-media-link-footer:focus {
   background-color: #31d0aa !important;
 }
 
