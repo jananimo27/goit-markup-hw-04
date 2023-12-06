@@ -329,6 +329,11 @@ li > .link:focus {
   fill: var(--cloud);
 }
 
+.social-media-icon-2 {
+  fill: var(--cloud);
+  margin-top: 8px;
+}
+
 /* FOOTER */
 
 .footer {
@@ -342,7 +347,8 @@ li > .link:focus {
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
+  margin-left: 150px;
 }
 
 .logo-paragraph {
@@ -374,6 +380,7 @@ li > .link:focus {
   letter-spacing: 0.02em;
   color: var(--white);
   margin-bottom: 16px;
+  margin-top: 15px;
 }
 
 .social-media-link-2 {
@@ -382,7 +389,7 @@ li > .link:focus {
   background-color: var(--iris);
   border-radius: 50%;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
   transition: background-color 0.3s;
 }
@@ -435,10 +442,6 @@ li > .link:focus {
   background-color: var(--ocean);
   border: 1px solid transparent;
 }
-
-/* Reused item header from main  */
-
-/* Converting all images to block element */
 
 img {
   display: block;
