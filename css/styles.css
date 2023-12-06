@@ -275,36 +275,23 @@ li > .link:focus {
 .team-member {
   background-color: var(--white);
   flex-basis: calc((100% - 72px) / 4);
-  border-radius: 0 0 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0 0 4px 4px;
 }
 
 .member-info {
   padding: 32px 0;
 }
 
-.list-header {
-  text-align: center;
-  margin-bottom: 8px;
-}
-
-.list-text {
-  text-align: center;
-}
-
-/* Reused item header from main  */
-
-/* Social Media Icons */
-
-.social-media-container {
+.social-media-container.team-member-social {
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 10px;
 }
 
-.social-media.list {
+.social-media.list.team-member-social-list {
   display: flex;
   gap: 24px;
 }
@@ -320,7 +307,7 @@ li > .link:focus {
   justify-content: center;
   width: 100%;
   height: 100%;
-  background-color: #4d5ae5;
+  background-color: var(--iris);
   border-radius: 50%;
 }
 
