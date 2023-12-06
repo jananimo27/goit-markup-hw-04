@@ -379,6 +379,7 @@ li > .link:focus {
   display: flex;
   justify-content: left;
   margin-left: 150px;
+  align-items: baseline;
 }
 
 .logo-paragraph {
