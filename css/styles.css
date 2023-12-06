@@ -389,19 +389,13 @@ li > .link:focus {
   transition: background-color 0.3s;
 }
 
-.social-media-icon-footer:hover,
-.social-media-icon-footer:focus {
-  background-color: #31d0aa;
-}
-
-.social-media-link-footer:hover,
-.social-media-link-footer:focus {
-  background-color: #31d0aa;
+.footer .social-media-link-footer:hover,
+.footer .social-media-link-footer:focus {
+  background-color: #31d0aa !important;
 }
 
 .social-media-icon-footer {
   fill: var(--cloud);
-  transition: background-color 0.3s;
 }
 
 .social-media-list-footer {
