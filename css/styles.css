@@ -364,6 +364,9 @@ li > .link:focus {
   color: #404bbf;
 }
 
+.customer-icon {
+  fill: currentColor;
+}
 /* FOOTER */
 
 .footer {
