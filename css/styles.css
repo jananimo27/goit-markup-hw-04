@@ -331,7 +331,6 @@ li > .link:focus {
 
 .social-media-icon-2 {
   fill: var(--cloud);
-  margin-top: 8px;
 }
 
 /* FOOTER */
@@ -353,6 +352,7 @@ li > .link:focus {
 
 .logo-paragraph {
   margin-right: 120px;
+  align-items: baseline;
 }
 
 .footer-text {
