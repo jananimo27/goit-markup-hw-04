@@ -293,6 +293,7 @@ li > .link:focus {
 
 .social-media.list {
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 
@@ -314,9 +315,8 @@ li > .link:focus {
 
 .social-media-link:hover,
 .social-media-link:focus {
-  background-color: var(--ocean);
+  background-color: #404bbf;
 }
-
 .social-media-icon {
   fill: var(--cloud);
 }
