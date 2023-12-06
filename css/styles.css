@@ -329,10 +329,6 @@ li > .link:focus {
   fill: var(--cloud);
 }
 
-.social-media-icon-2 {
-  fill: var(--cloud);
-}
-
 /* FOOTER */
 
 .footer {
@@ -396,6 +392,10 @@ li > .link:focus {
 .social-media-link-2:hover,
 .social-media-link-2:focus {
   background-color: #31d0aa;
+}
+
+.social-media-icon-2 {
+  fill: var(--cloud);
 }
 
 .social-media-list-2 {
