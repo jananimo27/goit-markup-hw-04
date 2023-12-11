@@ -435,6 +435,11 @@ li > .link:focus {
   fill: var(--cloud);
 }
 
+.social-media-icon-footer:hover,
+.social-media-icon-footer:focus {
+  background-color: #31d0aa;
+}
+
 .social-media-list-footer {
   display: flex;
   gap: 16px;
