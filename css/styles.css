@@ -81,6 +81,7 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  align-items: baseline;
 }
 
 .logo {
@@ -427,7 +428,7 @@ li > .link:focus {
 
 .social-media-link-footer:hover,
 .social-media-link-footer:focus {
-  background-color: #31d0aa !important;
+  background-color: #31d0aa;
 }
 
 .social-media-icon-footer {
