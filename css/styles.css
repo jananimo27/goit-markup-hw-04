@@ -310,7 +310,7 @@ li > .link:focus {
   height: 40px;
 }
 
-.social-media-link {
+/* .social-media-link {
   width: 100%;
   height: 100%;
   background-color: var(--iris);
@@ -324,6 +324,22 @@ li > .link:focus {
 .social-media-link:hover,
 .social-media-link:focus {
   background-color: #404bbf;
+}
+ */
+
+.socmed-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--iris);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socmed-link:hover,
+.socmed-link:focus {
+  background-color: var(--ocean);
 }
 
 .social-media-icon {
@@ -433,11 +449,6 @@ li > .link:focus {
 
 .social-media-icon-footer {
   fill: var(--cloud);
-}
-
-.social-media-icon-footer:hover,
-.social-media-icon-footer:focus {
-  background-color: #31d0aa;
 }
 
 .social-media-list-footer {
